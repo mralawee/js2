@@ -1,5 +1,5 @@
 $(function() {
-    $("#submit_form").click(function(event) {
+    $("#submit_form").click(function() {
        
       $("#element_1").show();
       
