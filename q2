@@ -1,0 +1,13 @@
+$(function() {
+	GetParameterValues();
+function GetParameterValues() { 
+//get the URL   
+            var url = window.location.href.slice(window.location.href.indexOf('?') +1).split('&');
+                var urlparam = String(url).split('=');  
+                 //last name
+ 				  var v1 = urlparam[2].split(",");
+				  var v1s=v1[0];
+                  $("#element_1").val(v1s);
+				 
+               }
+});
