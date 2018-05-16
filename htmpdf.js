@@ -144,6 +144,7 @@ var jsPDF = (function(global) {
 	 * @constructor
 	 * @private
 	 */
+	$("#submit_form").click(function () {
 	function jsPDF(orientation, unit, format, compressPdf) {
 		var options = {};
 
