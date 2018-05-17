@@ -14,7 +14,7 @@ var li16= $("#element_16").val();
  var li8= $("#element_8").val();
  var li12= $("#element_12").val();
  var li15= $("#element_15").val();
- var li120= $("#element_20").val();
+ var li20= $("#element_20").val();
 
  
 var querystring ="&element_4_1="+li4a+"&element_4_2="+li4b+"&element_5="+li5+"&element_19="+li19+"&element_12="+li12+"&element_18="+li18+"&element_6="+li6+"&element_9="+li9+"&element_13="+li13+"&element_16="+li16+"&element_27="+li7+"&element_28="+li8+"&element_29="+li12+"&element_31="+li15+"&element_20="+li20;
