@@ -1,4 +1,2 @@
-$("#submit_form").click(function () {
-  
-	$("#download").setAttribute("#download", "image3")
-});
+$("#download").setAttribute("#download", "image3")
+
