@@ -13,12 +13,12 @@ oHead1.appendChild( oScript1);
 $("#submit_form").click(function () {
   var doc = new jsPDF();
 var specialElementHandlers = {
-    '#form_209011': function (element, renderer) {
+    '#form_container': function (element, renderer) {
         return true;
     }
 };
 	
-    doc.fromHTML($('#form_209011').html(), 15, 15, {
+    doc.fromHTML($('#form_container').html(), 15, 15, {
         'width': 170,
             'elementHandlers': specialElementHandlers
     });
