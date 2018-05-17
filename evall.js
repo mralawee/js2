@@ -1,5 +1,5 @@
 $(function() {
-$("#submit_form").click(function(){
+$("#submit_form").click(function(e){
 var li4a= $("#element_4_1").val();
  var li4b= $("#element_4_2").val();
 var li5= $("#element_5").val();
@@ -13,18 +13,18 @@ var li16= $("#element_16").val();
  var li27= $("#element_27").val();
  var li28= $("#element_28").val();
  var li29= $("#element_29").val();
- var li31 $("#element_31").val();
+ var li31= $("#element_31").val();
  var li20a= $("#element_20_1").val();
  var li20b= $("#element_20_2").val();
-var li22 $("#element_22").val();
-	var li25 $("#element_25").val();
-	var li26 $("#element_26").val();
+var li22= $("#element_22").val();
+	var li25= $("#element_25").val();
+	var li26= $("#element_26").val();
  var ev2= $("#element_30").val();
 	
- var mm=$("#element_23_1").val();
-var dd=$("#element_23_2").val();
-var yy=$("#element_23_3").val();
-var li23=mm+"/"+dd+"/"+yy;
+ var mm= $("#element_23_1").val();
+var dd= $("#element_23_2").val();
+var yy= $("#element_23_3").val();
+var li23= mm+"/"+dd+"/"+yy;
 	
 	 var li30;
 if(ev2=="1")
