@@ -11,7 +11,7 @@ var li9= $("#element_9").val();
 var li13= $("#element_13").val();
 var li16= $("#element_16").val();
  
- var typeofevaluation=$("input[name='element_7']:checked").val();
+ var typeofevaluation= $("#element_7").val();
 var li7;
 if(typeofevaluation=="1")
 {
@@ -22,7 +22,7 @@ else if(typeofevaluation=="2")
 	li7="End-of-Program Evaluation";
 }
  
-   var ev1=$("input[name='element_8']:checked").val();
+   var ev1= $("#element_8").val();
 var li8;
 if(ev1=="1")
 {
@@ -41,7 +41,7 @@ else if(ev1=="2")
 	li8="Below Average";
 }
  
- var ev2=$("input[name='element_12']:checked").val();
+ var ev2= $("#element_12").val();
 var li12;
 if(ev2=="1")
 {
@@ -52,7 +52,7 @@ else if(ev2=="2")
 	li12="No";
 }
  
-     var ev3=$("input[name='element_15']:checked").val();
+     var ev3= $("#element_15").val();
 var li15;
 if(ev3=="1")
 {
