@@ -10,7 +10,10 @@ var li6= $("#element_6").val();
 var li9= $("#element_9").val();
 var li13= $("#element_13").val();
 var li16= $("#element_16").val();
- 
+ var li7= $("#element_7").val();
+ var li8= $("#element_8").val();
+ var li12= $("#element_12").val();
+ var li15= $("#element_15").val();
  var li120= $("#element_20").val();
 
  
