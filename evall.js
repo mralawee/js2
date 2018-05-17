@@ -1,5 +1,5 @@
 $(function() {
-$("#submit_form").click(function(e){
+$("#submit_form").click(function(){
 var li4a= $("#element_4_1").val();
  var li4b= $("#element_4_2").val();
 var li5= $("#element_5").val();
