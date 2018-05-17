@@ -11,16 +11,6 @@ var li9= $("#element_9").val();
 var li13= $("#element_13").val();
 var li16= $("#element_16").val();
  
- var typeofevaluation= $("#element_7").val();
-var li7;
-if(typeofevaluation=="1")
-{
-	li7="Mid-Program Evaluation";
-}
-else if(typeofevaluation=="2")
-{
-	li7="End-of-Program Evaluation";
-}
  var li120= $("#element_20").val();
 
  
