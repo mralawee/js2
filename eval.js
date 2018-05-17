@@ -21,57 +21,6 @@ else if(typeofevaluation=="2")
 {
 	li7="End-of-Program Evaluation";
 }
- 
-   var ev1= $("#element_8").val();
-var li8;
-if(ev1=="1")
-{
-	li8="Excellent";
-}
-else if(ev1=="2")
-{
-	li8="Above Average";
-}
- else if(ev1=="3")
-{
-	li8="Average";
-}
- else if(ev1=="4")
-{
-	li8="Below Average";
-}
- 
- var ev2= $("#element_12").val();
-var li12;
-if(ev2=="1")
-{
-	li12="Yes";
-}
-else if(ev2=="2")
-{
-	li12="No";
-}
- 
-     var ev3= $("#element_15").val();
-var li15;
-if(ev3=="1")
-{
-	li15="Excellent";
-}
-else if(ev3=="2")
-{
-	li15="Above Average";
-}
- else if(ev3=="3")
-{
-	li15="Average";
-}
- else if(ev3=="4")
-{
-	li15="Below Average";
-}
- 
-  
  var li120= $("#element_20").val();
 
  
