@@ -21,9 +21,12 @@ var li22 $("#element_22").val();
 	var li26 $("#element_26").val();
  var ev2= $("#element_30").val();
 	
-
-
- var li30;
+ var mm=$("#element_23_1").val();
+var dd=$("#element_23_2").val();
+var yy=$("#element_23_3").val();
+var li23=mm+"/"+dd+"/"+yy;
+	
+	 var li30;
 if(ev2=="1")
 {
 	li30="Excellent";
@@ -40,11 +43,6 @@ else if(ev2=="2")
 {
 	li30="Below Average";
 }
- 
- var mm9=$("#element_23_1").val();
-var dd9=$("#element_23_2").val();
-var yy9=$("#element_23_3").val();
-var li23=mm9+"/"+dd9+"/"+yy9;
 	
 var querystring ="&element_4_1="+li4a+"&element_4_2="+li4b+"&element_5="+li5+"&element_19="+li19+"&element_12="+li12+"&element_18="+li18+"&element_6="+li6+"&element_9="+li9+"&element_13="+li13+"&element_16="+li16+"&element_27="+li27+"&element_28="+li28+"&element_29="+li29+"&element_31="+li31+"&element_20_1="+li20a+"&element_20_2="+li20b+"&element_32="+li23+"&element_33="+li30+"&element_22="+li22+"&element_25="+li25+"&element_26="+li26;
 querystring = querystring.replace(/\s/g,'%20');
