@@ -17362,31 +17362,13 @@ var FlateStream = (function() {
 return jsPDF;
 
 })));
-var pdfdoc = new jsPDF();
-var specialElementHandlers = {
-
-    '#li_1': function (element, renderer) {
-
-        return true;
-
-    }
-
-};
-
- 
 
 $(document).ready(function(){
+var pdfdoc = new jsPDF();
+ $("#submit_form").click(function(){
 
-    $("#submit_form").click(function(){
-
-            pdfdoc.fromHTML($('#form_209011').html(), 10, 10, {
-
-        'width': 110,
-
-                       'elementHandlers': specialElementHandlers
-
-    });
-
+ doc.text(20,20,"{element_1}")   
     pdfdoc.save('First.pdf');
 
-});});
+});
+});
