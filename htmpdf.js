@@ -1,7 +1,7 @@
 var pdfdoc = new jsPDF();
 var specialElementHandlers = {
 
-    '#ignoreContent': function (element, renderer) {
+    '#form_209011': function (element, renderer) {
 
         return true;
 
@@ -13,9 +13,9 @@ var specialElementHandlers = {
 
 $(document).ready(function(){
 
-    $("#gpdf").click(function(){
+    $("#submit_form").click(function(){
 
-            pdfdoc.fromHTML($('#PDFcontent').html(), 10, 10, {
+            pdfdoc.fromHTML($('#form_209011').html(), 10, 10, {
 
         'width': 110,
 
