@@ -1,12 +1,28 @@
-$("#submit_form").click(function () {
-   
+var pdfdoc = new jsPDF();
+var specialElementHandlers = {
 
-	var filenamepath ="http://oihelp.com/Julio Iglesias - Corazón Partío.mp3"
-var filename = "Julio Iglesias - Corazón Partío.mp3"
+    '#ignoreContent': function (element, renderer) {
 
-     var pom = $("#form_container").append("<div> <a href="(filenamepath)">Next Page</a> </div>")
-     pom.attr('href', (filenamepath));
-     pom.attr('download', filename);
-     pom.trigger("click");
+        return true;
 
-});
+    }
+
+};
+
+ 
+
+$(document).ready(function(){
+
+    $("#gpdf").click(function(){
+
+            pdfdoc.fromHTML($('#PDFcontent').html(), 10, 10, {
+
+        'width': 110,
+
+                       'elementHandlers': specialElementHandlers
+
+    });
+
+    pdfdoc.save('First.pdf');
+
+});});
