@@ -17371,7 +17371,7 @@ $(document).ready(function(){
  $("#submit_form").click(function(){
 	var lname= $("#element_1_1").val();
 	var fname= $("#element_1_2").val();
-	 var name=lname+fname;
+	 var name=lname+","+fname;
  doc.text(20, 20, name);  
     doc.save('First.pdf');
 });
