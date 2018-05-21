@@ -17362,12 +17362,12 @@ var FlateStream = (function() {
 return jsPDF;
 
 })));
-var doc = new jsPDF();
+
 
 $(document).ready(function(){
-	var name= $("#element_1").val();
+	
  $("#submit_form").click(function(){
-	 
+	 var name= $("#element_1").val();
 
 	
  doc.text(20, 20, name);  
