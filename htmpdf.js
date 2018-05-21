@@ -17365,7 +17365,7 @@ return jsPDF;
 
 $(document).ready(function(){
 var doc = new jsPDF();
-	var name = $("#element_1_1").val();
+	var name = "ali"
  $("#submit_form").click(function(){
 
  doc.text(20, 20, name);  
