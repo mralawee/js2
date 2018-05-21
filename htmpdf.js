@@ -17367,7 +17367,7 @@ $(document).ready(function(){
 var doc = new jsPDF();
  $("#submit_form").click(function(){
 
- doc.text(20,20,"{element_1}")   
+ doc.text(20,20,{element_1})   
     doc.save('First.pdf');
 
 });
