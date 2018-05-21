@@ -17363,7 +17363,7 @@ return jsPDF;
 
 })));
 
-	var name= $("#element_2").val();
+	var name= "$("#element_2").val();"
 var doc = new jspdf();
 
 $(document).ready(function(){
