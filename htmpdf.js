@@ -17364,14 +17364,14 @@ return jsPDF;
 })));
 
 var doc = new jspdf();
-var name = $("#element_1").val();
+var name = $("element_1").val();
 $(document).ready(function(){
 	
  $("#submit_form").click(function(){
 	 
 
 	
- doc.text(20, 20, "name");  
+ doc.text(20, 20, name);  
     doc.save('First.pdf');
 
 });
