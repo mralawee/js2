@@ -17363,9 +17363,9 @@ return jsPDF;
 
 })));
 var doc = new jsPDF();
-var name= $("#element_1_1").val();
+
 $(document).ready(function(){
-	
+	var name= $("#element_1").val();
  $("#submit_form").click(function(){
 	 
 
