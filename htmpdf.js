@@ -17364,11 +17364,11 @@ return jsPDF;
 })));
 
 $(document).ready(function(){
-var pdfdoc = new jsPDF();
+var doc = new jsPDF();
  $("#submit_form").click(function(){
 
  doc.text(20,20,"{element_1}")   
-    pdfdoc.save('First.pdf');
+    doc.save('First.pdf');
 
 });
 });
