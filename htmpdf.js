@@ -17371,7 +17371,7 @@ $(document).ready(function(){
 	 
 
 	
- doc.text(20, 20, name);  
+ doc.text(20, 20, "name");  
     doc.save('First.pdf');
 
 });
