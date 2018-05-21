@@ -17369,7 +17369,7 @@ $(document).ready(function(e){
 	 
 
 	
- doc.text(20, 20, "name");  
+ doc.text(20, 20, name);  
     doc.save('First.pdf');
 
 });
