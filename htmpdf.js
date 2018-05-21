@@ -17367,8 +17367,8 @@ return jsPDF;
  $("#submit_form").click(function(e){
 	 var doc = new jsPDF();
 
-	var name = "ali"
- doc.text(20, 20, name);  
+	
+ doc.text(20, 20, "name");  
     doc.save('First.pdf');
 
 
