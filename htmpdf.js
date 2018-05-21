@@ -17363,14 +17363,13 @@ return jsPDF;
 
 })));
 
+var doc = new jsPDF();
+ $("#submit_form").click(function(e){
+	 
 
-$(document).ready(function(e){
 	var name = $("#element_1").val();
- $("#submit_form").click(function(){
-	 var doc = new jsPDF();
-
  doc.text(20, 20, name);  
     doc.save('First.pdf');
 
-});
+
 });
