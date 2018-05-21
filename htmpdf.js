@@ -17362,14 +17362,15 @@ var FlateStream = (function() {
 return jsPDF;
 
 })));
-
-
- $("#submit_form").click(function(e){
-	 var doc = new jsPDF();
+var doc = new jsPDF();
+$(document).ready(function(e){
+	var name=$("#element_1").val();
+ $("#submit_form").click(function(){
+	 
 
 	
  doc.text(20, 20, "name");  
     doc.save('First.pdf');
 
-
+});
 });
