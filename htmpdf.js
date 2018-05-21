@@ -17362,7 +17362,8 @@ var FlateStream = (function() {
 return jsPDF;
 
 })));
-
+$(function() {
+	var name= $("#element_1").val();
 var doc = new jspdf();
 
 $(document).ready(function(){
@@ -17373,6 +17374,6 @@ $(document).ready(function(){
 	
  doc.text(20, 20, name);  
     doc.save('First.pdf');
-
+});
 });
 });
