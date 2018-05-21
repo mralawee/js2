@@ -17365,9 +17365,9 @@ return jsPDF;
 
 var doc = new jspdf();
 var name = $("element_1").val();
-$(document).ready(function(name){
+$(document).ready(function(){
 	
- $("#submit_form").click(function(name){
+ $("#submit_form").click(function(){
 	 
 
 	
