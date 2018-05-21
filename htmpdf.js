@@ -17369,9 +17369,10 @@ return jsPDF;
 $(document).ready(function(){
 	
  $("#submit_form").click(function(){
-	var name= $("#element_1").val();
-	
- doc.text(20, 20, """+name+""");  
+	var lname= $("#element_1_1").val();
+	var fname= $("#element_1_2").val();
+	 var name=lname+fname;
+ doc.text(20, 20, name);  
     doc.save('First.pdf');
 });
 });
