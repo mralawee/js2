@@ -1,5 +1,5 @@
  $(document).ready(function () {
  var sig = $("#element_4").val();
   //sig = sig.replace(/@/g,"\"");
-   $('.mf_sigpad_5').signaturePad({displayOnly:true}).regenerate(sig);
+   $("#element_5").signaturePad({displayOnly:true}).regenerate(sig);
   });
