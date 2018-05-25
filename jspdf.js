@@ -17365,7 +17365,7 @@ return jsPDF;
 
 
   var doc = new jsPDF();
-
+$("#submit_form").click(function(){
 // We'll make our own renderer to skip this editor
 var specialElementHandlers = {
   '#editor': function(element, renderer){
@@ -17381,4 +17381,5 @@ var specialElementHandlers = {
 doc.fromHTML($('body').get(0), 15, 15, {
   'width': 170, 
   'elementHandlers': specialElementHandlers
+});
 });
