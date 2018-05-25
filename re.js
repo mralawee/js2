@@ -7,7 +7,5 @@ $(document).ready(function () {
        $('.sigPad').signaturePad({displayOnly:true}).regenerate(profsign);
  $('.mf_sig_wrapper').signaturePad({drawOnly:true}).regenerate(stusign);
      });
- $("#submit_form").click(function() {
-  window.print();
-  });
+ 
 });
