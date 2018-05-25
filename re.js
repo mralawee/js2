@@ -5,6 +5,6 @@ $(document).ready(function () {
        profsign = profsign.replace(/@/g, '"');
  stusign = stusign.replace(/@/g, '"');
        $('.sigPad').signaturePad({displayOnly:true}).regenerate(profsign);
- $('.ssigPad').signaturePad({drowOnly:true}).regenerate(stusign);
+ $('.ssigPad').signaturePad({displayOnly:true}).regenerate(stusign);
 });
 });
