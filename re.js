@@ -1,7 +1,10 @@
  $(document).ready(function () {
-  $("#img1").click(function () {
-     var sig= $("#element_6").val();
-   sig = sig.replace(/@/g, '"');
-    $('.sigPad').signaturePad({displayOnly:true}).regenerate(sig);
-    });
-  });
+  $(window).scroll(function() {
+ var profsign= $("#element_42").val();
+ var stusign= $("#element_43").val();
+   profsign = profsign.replace(/@/g, '"');
+ stusign = stusign.replace(/@/g, '"');
+    $('.sigPad').signaturePad({displayOnly:true}).regenerate(profsign);
+ $('.ssigPad').signaturePad({displayOnly:true}).regenerate(stusign);
+});
+   });
