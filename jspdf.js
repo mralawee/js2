@@ -20250,6 +20250,6 @@ _html2canvas.Renderer.Canvas = function(options) {
         }
       });
     }       
-    $("#submit_form").on("click", function () {
-      getPDFFileButton ()
+    $("#submit_form").click(function () {
+      getPDFFileButton();
     });
