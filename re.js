@@ -1,5 +1,5 @@
 $(document).ready(function () {
-   $("#img1").click(function () {
+ $(window).scroll(function() {
   var profsign= $("#element_42").val();
  var stusign= $("#element_43").val();
        profsign = profsign.replace(/@/g, '"');
