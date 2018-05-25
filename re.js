@@ -8,6 +8,6 @@ $(document).ready(function () {
  $('.ssigPad').signaturePad({displayOnly:true}).regenerate(stusign);
 });
   $("#submit_form").click(function () {
-    window.prin();
+    window.print();
 });
 });
