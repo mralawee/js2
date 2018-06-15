@@ -9,11 +9,11 @@ var li43= $("#element_43").val();
 var li4= $("#element_4").val();
 var li5= $("#element_5").val();
 var li44= $("#element_44").val();
-var li33a= $("#element_33_1").val();
-  var li33c= $("#element_33_3").val();
-  var li33d= $("#element_33_4").val();
-  var li33e= $("#element_33_5").val();
-  var li33f= $("#element_33_6").val();
+var li33a= $("#element_50_1").val();
+  var li33c= $("#element_50_3").val();
+  var li33d= $("#element_50_4").val();
+  var li33e= $("#element_50_5").val();
+  var li33f= $("#element_50_6").val();
 var li45= $("#element_45").val();
  
  var mm8=$("#element_8_1").val();
