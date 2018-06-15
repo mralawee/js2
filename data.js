@@ -32,5 +32,18 @@ var name2= $("#element_1_2").val();
   $("#element_33_4").val(state);
   $("#element_33_5").val(zip);
   $("#element_33_6").val(coc);
+  
+  var reasonsfordenial = $("input[name='element_55']:checked").val();
+        var reason;
+        if (reasonsfordenial == 1) {
+            reason = reason + "Under Enrolled";
+        }  if (reasonsfordenial == 2) {
+            reason = reason + "Bursar balance is higher than 100$ or payment plan has not been set up";
+        }  if (reasonsfordenial == 3) {
+            reason = reason + "Rent due on 15th of month";
+        }  if (reasonsfordenial == 4) {
+            reason = reason + "Address has not been changed in self service";
+        }
+   $("#element_18").val(reason);
 });
   });
