@@ -38,6 +38,7 @@ var name2= $("#element_1_2").val();
   var reasonsfordenial2 = $("input[name='element_55_2']:checked").val();
   var reasonsfordenial3 = $("input[name='element_55_3']:checked").val();
   var reasonsfordenial4 = $("input[name='element_55_4']:checked").val();
+  var reasonsfordenial5 = $("input[name='element_55_5']:checked").val();
   
  if (reasonsfordenial1 == 1) {
    var reason1;
@@ -58,6 +59,10 @@ var name2= $("#element_1_2").val();
         var reason4;
  reason4 = "-Address has not been changed in self service. ";
    reasons = reasons + reason4;
+        }
+ if (reasonsfordenial5 == 1) {
+  var li18=  $("#element_18").val();
+   reasons = reasons + " -" + li18 + "." ;
         }
    $("#element_18").val(reasons);
 });
