@@ -36,24 +36,24 @@ var name2= $("#element_1_2").val();
   var reasonsfordenial1 = $("input[name='element_55_1']:checked").val();
         var reason1;
   if (reasonsfordenial1 == 1) {
-            reason1 = "Under Enrolled";
+            reason1 = "-Under Enrolled. ";
         }
   var reasonsfordenial2 = $("input[name='element_55_2']:checked").val();
         var reason2;
   if (reasonsfordenial2 == 1) {
-            reason2 = "Bursar balance is higher than 100$ or payment plan has not been set up";
+            reason2 = "-Bursar balance is higher than 100$ or payment plan has not been set up. ";
         } 
   var reasonsfordenial3 = $("input[name='element_55_3']:checked").val();
         var reason3;
   if (reasonsfordenial3 == 1) {
-            reason3 = "Rent due on 15th of month";
+            reason3 = "-Rent due on 15th of month. ";
         }
   var reasonsfordenial4 = $("input[name='element_55_4']:checked").val();
         var reason4;
   if (reasonsfordenial4 == 1) {
-            reason4 = "Address has not been changed in self service";
+            reason4 = "-Address has not been changed in self service. ";
         }
-  var reasons = reason1 + "&" + reason2 + "&" + reason3 + "&" + reason4;
+  var reasons = reason1 + "  " + reason2 + "  " + reason3 + "  " + reason4;
    $("#element_18").val(reasons);
 });
   });
