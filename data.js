@@ -5,8 +5,10 @@ var name2= $("#element_1_2").val();
  var cwid= $("#element_28").val();
  var email= $("#element_31").val();
  var visa= $("#element_43").val();
+ var visaed= $("#element_53").val();
  var clss= $("#element_4").val();
  var major= $("#element_5").val();
+ var add= $("#element_44").val();
  var dep= $("#element_50").val();
  var ret= $("#element_51").val();
  var tcoc= $("#element_45").val();
@@ -15,6 +17,10 @@ var name2= $("#element_1_2").val();
  var state= $("#element_33_4").val();
  var zip= $("#element_33_5").val();
  var coc= $("#element_33_6").val();
+ 
+ f (add == 2) {
+         $("#element_54").val(1);
+        }
  $("#submit_form").click(function(e){
   $("#element_2").val(sevis);
   $("#element_1_1").val(name1);
@@ -22,8 +28,10 @@ var name2= $("#element_1_2").val();
   $("#element_28").val(cwid);
   $("#element_31").val(email);
   $("#element_43").val(visa);
+  $("#element_53").val(visaed);
   $("#element_4").val(clss);
   $("#element_5").val(major);
+  $("#element_44").val(add);
   $("#element_50").val(dep);
   $("#element_51").val(ret);
   $("#element_45").val(tcoc);
