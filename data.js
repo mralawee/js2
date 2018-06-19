@@ -50,27 +50,27 @@ var name2= $("#element_1_2").val();
   
  if (reasonsfordenial1 == 1) {
    var reason1;
-            reason1 = "-Under Enrolled. ";
+            reason1 = "•Under Enrolled. ";
    reasons = reasons + reason1 + " \n";
         }
  if (reasonsfordenial2 == 1) {
    var reason2;
-            reason2 = "-Bursar balance is higher than 100$ or payment plan has not been set up. ";
+            reason2 = "•Bursar balance is higher than 100$ or payment plan has not been set up. ";
    reasons = reasons + reason2 + " \n";
         } 
  if (reasonsfordenial3 == 1) {
    var reason3;
-            reason3 = "-Rent due on 15th of month. ";
+            reason3 = "•Rent due on 15th of month. ";
    reasons = reasons + reason3 + " \n";
         }
  if (reasonsfordenial4 == 1) {
         var reason4;
- reason4 = "-Address has not been changed in self service. ";
+ reason4 = "•Address has not been changed in self service. ";
    reasons = reasons + reason4 + " \n";
         }
  if (reasonsfordenial5 == 1) {
   var li18=  $("#element_18").val();
-   reasons = reasons + " -" + li18 + "." + " \n" ;
+   reasons = reasons + " •" + li18 + "." + " \n" ;
         }
    $("#element_18").val(reasons);
 });
