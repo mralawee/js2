@@ -27,9 +27,7 @@ var name2= $("#element_32_2").val();
        var dpen4= $("#element_19").val();
         var sev4= $("#element_20").val();
  
- if (add == "No") {
-         $("#element_46").val("Yes");
-        }
+ 
  
  $("#submit_form").click(function(e){
 $("#element_32_1").val(name1);
@@ -58,6 +56,10 @@ $("#element_17").val(dpen3);
 $("#element_18").val(sev3);
 $("#element_19").val(dpen4);
 $("#element_20").val(sev4);
+  
+  if (add == "No") {
+         $("#element_46").val("Yes");
+        }
   
   var reasons = "";
   var reasonsfordenial1 = $("input[name='element_48_2']:checked").val();
