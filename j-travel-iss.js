@@ -56,9 +56,9 @@ $("#element_19").val(dpen4);
 $("#element_20").val(sev4);
   
   var reasons = "";
-  var reasonsfordenial1 = $("input[name='element_48_1']:checked").val();
-  var reasonsfordenial2 = $("input[name='element_48_2']:checked").val();
-  var reasonsfordenial3 = $("input[name='element_48_3']:checked").val();
+  var reasonsfordenial1 = $("input[name='element_48_2']:checked").val();
+  var reasonsfordenial2 = $("input[name='element_48_4']:checked").val();
+  var reasonsfordenial3 = $("input[name='element_48_5']:checked").val();
   
  if (reasonsfordenial1 == 1) {
    var reason1;
