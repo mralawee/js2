@@ -29,7 +29,7 @@ var name2= $("#element_32_2").val();
  
   if (add == 2) {
          $("#element_46").val(1);
-   //$("#element_46").prop('disabled', true);
+   $("#element_46").attr('readonly','readonly')
         }
  
  
