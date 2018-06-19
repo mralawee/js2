@@ -18,7 +18,7 @@ var name2= $("#element_1_2").val();
  var zip= $("#element_33_5").val();
  var coc= $("#element_33_6").val();
  
- f (add == 2) {
+ if (add == 2) {
          $("#element_54").val(1);
         }
  $("#submit_form").click(function(e){
