@@ -27,7 +27,7 @@ var name2= $("#element_32_2").val();
        var dpen4= $("#element_19").val();
         var sev4= $("#element_20").val();
  
-  if (add == 2) {
+  if (add == 1) {
          $("#element_46").val(1);
         }
  
