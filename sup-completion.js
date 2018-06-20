@@ -56,7 +56,7 @@ var li19= $("#element_19").val();
   if (reasonsfordenial4 == 1) {
   var reason4;
             reason4 = "-Scholar has already terminated participation in the program. ";
-   reasons = reasons + reason4 +;
+   reasons = reasons + reason4;
         }
  if (reasonsfordenial5 == 1) {
   var reason5;
