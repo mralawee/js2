@@ -41,32 +41,32 @@ var li19= $("#element_19").val();
  if (reasonsfordenial1 == 1) {
    var reason1;
             reason1 = "-Scholar has successfully met the program objectives. ";
-   reasons = reasons + reason1 + " \n";
+   reasons = reasons + reason1;
         }
  if (reasonsfordenial2 == 1) {
    var reason2;
             reason2 = "-Scholar has NOT met the program objectives. ";
-   reasons = reasons + reason2 + " \n";
+   reasons = reasons + reason2;
         } 
  if (reasonsfordenial3 == 1) {
   var reason3;
             reason3 = "-Scholar is leaving the program earlier than anticipated. ";
-   reasons = reasons + reason3 + " \n";
+   reasons = reasons + reason3;
         }
   if (reasonsfordenial4 == 1) {
   var reason4;
             reason4 = "-Scholar has already terminated participation in the program. ";
-   reasons = reasons + reason4 + " \n";
+   reasons = reasons + reason4 +;
         }
  if (reasonsfordenial5 == 1) {
   var reason5;
             reason5 = "-Scholar maximized his/her stay as a J-1 scholar. ";
-   reasons = reasons + reason5 + " \n";
+   reasons = reasons + reason5;
         }
 if (reasonsfordenial6 == 1) {
   var reason6;
             reason6 = "-Alternative nonimmigrant options to continue program participation were discussed with this scholar (i.e. Change of Status to H-1B or other visa). ";
-   reasons = reasons + reason6 + " \n";
+   reasons = reasons + reason6;
         }
  
 var querystring ="&element_3_1="+li3a+"&element_3_2="+li3b+"&element_23="+li15+"&element_24="+reasons+"&element_5="+li5+"&element_17_1="+li17a+"&element_17_2="+li17b+"&element_18="+li18+"&element_21="+li21+"&element_19="+li19;
