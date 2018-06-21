@@ -18,7 +18,7 @@ $("#element_24").val(querystring);
 			var sigpad_data_25 = $("#element_26").val();
   sigpad_data_25 = sigpad_data_25.replace(/-/g, '"');
 		$("#element_26").val(sigpad_data_25);
-		
+		sigpad_data_25 = $("#element_26").val();
 	
 	
 			$('#mf_sigpad_25').signaturePad(sigpad_options_25).regenerate(sigpad_data_25);
