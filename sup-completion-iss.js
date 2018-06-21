@@ -8,7 +8,7 @@ $(function() {
 				validateFields: false
 			};
 			var sigpad_data = $("#element_26").val();
-  sigpad_data= sigpad_data.replace(/\-/g,'"');
+  sigpad_data= sigpad_data.replace(/-/g,'"');
 			$('#mf_sigpad_25').signaturePad(sigpad_options).regenerate(sigpad_data);
 	
 	
