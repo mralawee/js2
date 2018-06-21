@@ -7,20 +7,17 @@ var querystring = $("#element_24").val();
 querystring = querystring.replace(/\--/g,'\n');
 $("#element_24").val(querystring);
 });
-	 $("#element_26").each(function(){
-	var sigpad_options_25 = {
+	
+			var sigpad_options = {
 				drawOnly : true,
 				displayOnly: true,
 				bgColour: '#fff',
 				penColour: '#000',
 				validateFields: false
 			};
-			var sigpad_data_25 = $("#element_26").val();
-  sigpad_data_25 = sigpad_data_25.replace(/-/g, '"');
-		$("#element_26").val(sigpad_data_25);
+			var sigpad_data = $("#element_26").val();
+	 sigpad_data = sigpad_data.replace(/-/g, '"');
+		$("#element_26").val(sigpad_data);
+			$('#mf_sigpad').signaturePad(sigpad_options).regenerate(sigpad_data);
 		
-	
-	
-			$('#mf_sigpad_25').signaturePad(sigpad_options_25).regenerate(sigpad_data_25);
-	});
 });
