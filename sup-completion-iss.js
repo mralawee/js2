@@ -9,7 +9,7 @@ $(function() {
 			};
 	$("#element_26").each(function(){
 			var sigpad_data = $("#element_26").val();
-  sigpad_data= sigpad_data.replace(/-/,'"');
+  sigpad_data= sigpad_data.replace(/-/,/"/);
 			$('#mf_sigpad_25').signaturePad(sigpad_options).regenerate(sigpad_data);
 	
 	});
