@@ -1,6 +1,13 @@
 $(function() {
   
-			var sigpad_options = {
+			
+
+  $("#element_24").each(function(){
+var querystring = $("#element_24").val();
+querystring = querystring.replace(/\--/g,'\n');
+$("#element_24").val(querystring);
+});
+	var sigpad_options = {
 				drawOnly : true,
 				displayOnly: true,
 				bgColour: '#fff',
@@ -9,13 +16,7 @@ $(function() {
 			};
 	
 			var sigpad_data = $("#element_26").val();
-  sigpad_data = sigpad_data.replace(/\-/g,/"/);
+  sigpad_data = sigpad_data.replace(/-/g, '\"');
 			$('#mf_sigpad_25').signaturePad(sigpad_options).regenerate(sigpad_data);
 	
-
-  $("#element_24").each(function(){
-var querystring = $("#element_24").val();
-querystring = querystring.replace(/\--/g,'\n');
-$("#element_24").val(querystring);
-});
 });
