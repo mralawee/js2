@@ -1,6 +1,10 @@
 $(function() {
 $("#submit_form").click(function(e){
 
+ //signature
+ var li8= $("#element_8").val();
+ li8= li8.replace(/\s/g,'%20');
+ li8= li8.replace(/\"/g,'-');
 //Name of J-1 Visitor
 var li3a= $("#element_3_1").val();
  var li3b= $("#element_3_2").val();
@@ -69,7 +73,7 @@ if (reasonsfordenial6 == 1) {
    reasons = reasons + reason6;
         }
  
-var querystring ="&element_3_1="+li3a+"&element_3_2="+li3b+"&element_23="+li15+"&element_24="+reasons+"&element_5="+li5+"&element_17_1="+li17a+"&element_17_2="+li17b+"&element_18="+li18+"&element_21="+li21+"&element_19="+li19;
+var querystring ="&element_3_1="+li3a+"&element_3_2="+li3b+"&element_23="+li15+"&element_24="+reasons+"&element_5="+li5+"&element_17_1="+li17a+"&element_17_2="+li17b+"&element_18="+li18+"&element_21="+li21+"&element_19="+li19+"&element_26="+li8;
 querystring = querystring.replace(/\s/g,'%20');
 var url = "https://okstate.forms-db.com/view.php?id=237848"+querystring;
 $("#element_23").val(url);
