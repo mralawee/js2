@@ -56,6 +56,6 @@ var li9=mm9+"/"+dd9+"/"+yy9;
 var querystring ="&element_32_1="+li32a+"&element_32_2="+li32b+"&element_29="+li29+"&element_33="+li33+"&element_2="+li2+"&element_38="+li11+"&element_39="+li7+"&element_40="+li4+"&element_35="+li35+"&element_6_1="+li6a+"&element_6_3="+li6c+"&element_6_4="+li6d+"&element_6_5="+li6e+"&element_6_6="+li6f+"&element_41="+li8+"&element_42="+li9+"&element_36="+li36+"&element_37="+li37+"&element_13="+li13+"&element_14="+li14+"&element_15="+li15+"&element_16="+li16+"&element_17="+li17+"&element_18="+li18+"&element_19="+li19+"&element_20="+li20;
 querystring = querystring.replace(/\s/g,'%20');
 var url = "https://okstate.forms-db.com/view.php?id=236118"+querystring;
-$("#element_39").val(url);
+$("#element_40").val(url);
 });
 });
