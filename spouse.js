@@ -5,7 +5,7 @@ var li16= $("#element_16").val();
 var li2= $("#element_2").val();
 var li3= $("#element_3").val();
 
- var li4= $("#element_3").val();
+ var li4= $("#element_4").val();
  
 // var mm4=$("#element_4_1").val();
 //var dd4=$("#element_4_2").val();
@@ -19,7 +19,7 @@ var li19= $("#element_19").val();
 var mm8=$("#element_8_1").val();
 var dd8=$("#element_8_2").val();
 var yy8=$("#element_8_3").val();
-var li8=mm8+"/"+dd8+"/"+y8;
+var li8=mm8+"/"+dd8+"/"+yy8;
 
 var li9= $("#element_9").val();
 
