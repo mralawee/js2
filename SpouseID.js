@@ -4,7 +4,13 @@ var li16= $("#element_16").val();
  var li17= $("#element_17").val();
 var li2= $("#element_2").val();
 var li3= $("#element_3").val();
-var li4= $("#element_4").val();
+
+ 
+ var mm4=$("#element_4_1").val();
+var dd4=$("#element_4_2").val();
+var yy4=$("#element_4_3").val();
+var li4=mm4+"-"+dd4+"-"+yy4;
+
 var li23= $("#element_23").val();
 var li18= $("#element_18").val();
 var li19= $("#element_19").val();
