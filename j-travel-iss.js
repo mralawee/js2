@@ -76,8 +76,9 @@ $("#element_20").val(sev4);
    reasons = reasons + reason2 + " \n";
         } 
  if (reasonsfordenial3 == 1) {
-  var li18=  $("#element_49").val();
-   reasons = reasons + " • " + li18 + "." + " \n" ;
+  var reason3;
+            reason3 = "• Supervisor has not been notified. ";
+   reasons = reasons + reason3 + " \n";
         }
    $("#element_49").val(reasons);
 });
