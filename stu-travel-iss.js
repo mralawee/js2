@@ -50,7 +50,7 @@ var name2= $("#element_1_2").val();
   
  if (reasonsfordenial1 == 1) {
    var reason1;
-            reason1 = "• Under Enrolled. ";
+            reason1 = "• Under Enrolled for next semester. ";
    reasons = reasons + reason1 + " \n";
         }
  if (reasonsfordenial2 == 1) {
@@ -60,7 +60,7 @@ var name2= $("#element_1_2").val();
         } 
  if (reasonsfordenial3 == 1) {
    var reason3;
-            reason3 = "• Rent due on 15th of month. ";
+            reason3 = "• The major on your current I-20 does not match with the major on Banner. To resolve this issue, A) You must meet your academic advisor and change to the correct major or B) You need to meet with your DSO to get a new I-20.. ";
    reasons = reasons + reason3 + " \n";
         }
  if (reasonsfordenial4 == 1) {
@@ -68,9 +68,14 @@ var name2= $("#element_1_2").val();
  reason4 = "• Address has not been changed in self service. ";
    reasons = reasons + reason4 + " \n";
         }
- if (reasonsfordenial5 == 1) {
-  var li18=  $("#element_18").val();
-   reasons = reasons + " • " + li18 + "." + " \n" ;
+ //if (reasonsfordenial5 == 1) {
+  //var li18=  $("#element_18").val();
+   //reasons = reasons + " • " + li18 + "." + " \n" ;
+  //      }
+  if (reasonsfordenial5 == 1) {
+        var reason5;
+ reason5 = "• Outstanding holds (1is2 many, transcript, immunization, advising, etc.). ";
+   reasons = reasons + reason5 + " \n";
         }
    $("#element_18").val(reasons);
 });
