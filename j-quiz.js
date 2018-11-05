@@ -1,26 +1,26 @@
 $(function(){
-$("#submit_secondary").hide();
+
 var validval=$("#element_41").val();
 //hide the continue button when page loads
 if(validval=="")
 {
 $("#submit_primary").hide();
-$("#validateCode").show();
+$("#validateCODE").show();
 }
 //hide the validate button if participant is valid
 else if( validval!='InValid_Participant')
 {
-	$("#validateCode").hide();
+	$("#validateCODE").hide();
 	$("#submit_primary").show();
 	sessionStorage.setItem("showvaliditybutton", "no");
 }
 
 
 //append the validate cwid button
-$("#li_buttons").append('<input type="button" name="validateCode" value="Validate Code" id="validateCode"/>');
-$("#validateCode").click(function(e)
+$("#li_buttons").append('<input type="button" name="validateCODE" value="Validate CODE" id="validateCODE"/>');
+$("#validateCODE").click(function(e)
 {
-alert("Validating your Code. Please be patient as it might take some time depending on the load on server and your Bandwidth.");
+alert("Validating your CODE. Please be patient as it might take some time depending on the load on server and your Bandwidth.");
 var str=$("#element_40").val();
 //ajax call
  $.ajax({
@@ -41,9 +41,9 @@ var str=$("#element_40").val();
 if( responsedata.output=='InValid_Participant')
 	
 {
-alert("Sorry you are not a valid participant for the quiz. Please contact ISS office immidiately to resolve this issue.");
+alert("Sorry you are not a valid participant for the quiz. This might be because you have already taken the quiz two times unsuccessfully. Please contact Sayaka Isoda in ISS office to resolve this issue.");
 $("#element_41").val(responsedata.output);
-$("#validateCode").show();
+$("#validateCODE").show();
 $("#submit_primary").hide();
 }
 //valid participant
@@ -52,7 +52,7 @@ else
 alert("You are eligible to take the quiz. This is your Attempt#"+responsedata.output);
 $("#element_41").val(responsedata.output);
 $("#submit_primary").show();
-$("#validateCode").hide();
+$("#validateCODE").hide();
 }
 }//end on ajax success
  
@@ -62,6 +62,6 @@ $("#validateCode").hide();
 var data = sessionStorage.getItem('showvaliditybutton');
 	if(data=="no")
 	{
-		$("#validateCode").hide();
+		$("#validateCODE").hide();
 	}
 });
