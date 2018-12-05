@@ -17,7 +17,7 @@ var name2= $("#element_1_2").val();
  var state= $("#element_33_4").val();
  var zip= $("#element_33_5").val();
  var coc= $("#element_33_6").val();
- var holds =$("#element_67").val(); 
+ var hold =$("#element_68").val(); 
  
  if (add == 1) {
          $("#element_54").val(1);
@@ -77,7 +77,7 @@ var name2= $("#element_1_2").val();
         var reason5;
  reason5 = "• Outstanding holds.";
    reasons = reasons + reason5 + " \n";
-   reasons = reasons + holds + " \n";
+   reasons = reasons + hold + " \n";
    reasons = reasons + "You can check your holds by visiting myOKSTATE->Self Service -> Student -> Student profile";
         }
    $("#element_18").val(reasons);
