@@ -75,8 +75,10 @@ var name2= $("#element_1_2").val();
   //      }
   if (reasonsfordenial5 == 1) {
         var reason5;
- reason5 = "• Outstanding holds."+" \n"+ holds + " \n"+"You can check your holds by visiting myOKSTATE->Self Service -> Student -> Student profile";
+ reason5 = "• Outstanding holds.";
    reasons = reasons + reason5 + " \n";
+   reasons = reasons + holds + " \n";
+   reasons = reasons + "You can check your holds by visiting myOKSTATE->Self Service -> Student -> Student profile";
         }
    $("#element_18").val(reasons);
 });
