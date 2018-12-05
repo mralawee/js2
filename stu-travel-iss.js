@@ -17,6 +17,7 @@ var name2= $("#element_1_2").val();
  var state= $("#element_33_4").val();
  var zip= $("#element_33_5").val();
  var coc= $("#element_33_6").val();
+ var holds =$("#element_67").val(); 
  
  if (add == 1) {
          $("#element_54").val(1);
@@ -74,7 +75,7 @@ var name2= $("#element_1_2").val();
   //      }
   if (reasonsfordenial5 == 1) {
         var reason5;
- reason5 = "• Outstanding holds (1is2 many, transcript, immunization, advising, etc.). ";
+ reason5 = "• Outstanding holds (1is2 many, transcript, immunization, advising, etc.). " + holds;
    reasons = reasons + reason5 + " \n";
         }
    $("#element_18").val(reasons);
