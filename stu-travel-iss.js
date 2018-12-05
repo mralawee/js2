@@ -75,7 +75,7 @@ var name2= $("#element_1_2").val();
   //      }
   if (reasonsfordenial5 == 1) {
         var reason5;
- reason5 = "• Outstanding holds (1is2 many, transcript, immunization, advising, etc.). " + holds;
+ reason5 = "• Outstanding holds."+" \n"+ holds + " \n"+"You can check your holds by visiting myOKSTATE->Self Service -> Student -> Student profile";
    reasons = reasons + reason5 + " \n";
         }
    $("#element_18").val(reasons);
