@@ -5,6 +5,7 @@ $(function() {
  if (le == 9) {
 $( "#form_314034" ).submit() 
   window.history.back();
+   $("#element_1").val('')
  }
   
 });
