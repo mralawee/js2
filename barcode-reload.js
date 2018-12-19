@@ -1,6 +1,3 @@
-$(function() {
-$("#element_1").focus();
-$( "#form_314034" ).submit(function() {
-location.reload();
-});
+$( "#element_1" ).change(function() {
+  alert( "Handler for .change() called." );
 });
