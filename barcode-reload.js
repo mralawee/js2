@@ -1,7 +1,6 @@
 $(function() {
 $("#element_1").focus();
-  $("#submit_form").click(function(event){
-  
+  $("#form_318805").submit(function( event ) {
 location.reload();
 
 });
