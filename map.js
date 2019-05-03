@@ -1,4 +1,4 @@
 $(function()
 {
-    $("#submit_primary").hide();
+    $("#submit_form").hide();
 });
