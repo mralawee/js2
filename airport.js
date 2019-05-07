@@ -1,14 +1,10 @@
 $(function() {
-  $("#calendar_2").datepicker({
-    beforeShowDay: function(date) {
-      var today = new Date().getDate(),
-        tomorrow = today + 2;
-      // date is not today, tomorrow, or week-end
-      if ((today == date.getDate() || tomorrow == date.getDate()) || date.getDay() % 6 == 0) {
-        return [false, "CSSclass", "disabled"];
-      } else {
-        return [true, '', ''];
-      }
-    }
-  })
+  var date = new Date();
+  var minDate = new Date(date.getFullYear(), date.getMonth(), date.getDate() + 2);
+  $('#element_2').datepicker({
+    dateFormat: 'dd-mm-yy',
+    minDate: minDate,
+    beforeShowDay: $.datepicker.noWeekends
+  });
+
 });
