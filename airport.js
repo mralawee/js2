@@ -1,5 +1,5 @@
 $(function() {
-  $("#element_2").datepicker({
+  $("#element_2_datepick").datepicker({
     beforeShowDay: function(date) {
       var today = new Date().getDate(),
         tomorrow = today + 2;
