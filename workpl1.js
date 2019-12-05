@@ -102,7 +102,7 @@ $(function() {
             ppv = "No";
         }
         var querystringurl = "&ln=" + lastName + "&fn=" + firstName + "&bi=" + bannerId + "&si=" + sevisId + "&email=" + emailid + "&gradsem=" + gradsem + "&ss=" + sponsoredStudent + "&ga=" + ga + "&dept=" + dept + "&status=" + status + "&eli=" + eli + "&coc=" + coc + "&cor=" + cor + "&doe=" + doe + "&los=" + los + "&hrs=" + hours + "&i20date=" + i20date + "&ppv=" + ppv;
-        var url = "https://okstate.forms-db.com/view.php?id=182028" + querystringurl;
+        var url = "https://okstate.forms-db.com/view.php?id=471147" + querystringurl;
 		$("#element_35").val(url);
     });
 });
