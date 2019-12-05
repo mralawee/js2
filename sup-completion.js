@@ -72,7 +72,7 @@ if (reasonsfordenial6 == 1) {
  
 var querystring ="&element_3_1="+li3a+"&element_3_2="+li3b+"&element_23="+li15+"&element_24="+reasons+"&element_5="+li5+"&element_17_1="+li17a+"&element_17_2="+li17b+"&element_18="+li18+"&element_21="+li21+"&element_19="+li19;
 querystring = querystring.replace(/\s/g,'%20');
-var url = "https://okstate.forms-db.com/view.php?id=237848"+querystring;
+var url = "https://okstate.forms-db.com/view.php?id=468652"+querystring;
 $("#element_23").val(url);
 });
 });
