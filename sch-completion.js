@@ -57,7 +57,7 @@ var li6= $("#element_6").val();
  
 var querystring ="&element_3_1="+li3a+"&element_3_2="+li3b+"&element_19="+li15+"&element_20="+reasons+"&element_5="+li5+"&element_18="+li18+"&element_14="+li14+"&element_6="+li6;
 querystring = querystring.replace(/\s/g,'%20');
-var url = "https://okstate.forms-db.com/view.php?id=240536"+querystring;
+var url = "https://okstate.forms-db.com/view.php?id=467180"+querystring;
 $("#element_19").val(url);
 });
 });
