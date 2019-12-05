@@ -75,7 +75,7 @@ var doedd=$("#element_22_2").val();
 var doey=$("#element_22_3").val();
 var doeus=doemm+"/"+doedd+"/"+doey;
 var querystring ="&ln="+lastName+"&fn="+firstName+"&bi="+bannerId+"&si="+sevisId+"&email="+emailid+"&swy="+semwithyear+"&sponsored="+sponsoredVal+"&ga="+gradAssistantVal+"&department="+department+"&ss="+statusOfStudent+"&sc="+statusComments+"&eli="+eliVal+"&csp="+citizenship+"&resdncy="+residency+"&doeinus="+doeus;
-var url = "https://okstate.forms-db.com/view.php?id=176803"+querystring;
+var url = "https://okstate.forms-db.com/view.php?id=470185"+querystring;
 $("#element_26").val(url);
 });
 });
