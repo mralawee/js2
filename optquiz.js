@@ -26,7 +26,7 @@ var str=$("#element_38").val();
  $.ajax({
 	 type:"GET",
 	 async:true,
-    url: "https://script.google.com/macros/s/AKfycbzLDGW7gLY6Q0xZVSbwlAI8u6EYWlqLEB4XmXjAYLEaFMSdvgY/exec",
+    url: "https://script.google.com/macros/s/AKfycbz-4vAZ0j7PYV8pRrviec7zGD4_fkULJxsISp5-oZIvhS8BTpbJ/exec",
     data: {"first":str },
 	cache:false,
 	dataType: "json",
