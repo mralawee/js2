@@ -21,6 +21,7 @@ var li55= $("#element_55").val();
 var li57= $("#element_57").val();
 var li59= $("#element_59").val();
 var li60= $("#element_60").val();
+var li62= $("#element_62").val();
  
 var mm58=$("#element_58_1").val();
 var dd58=$("#element_58_2").val();
@@ -42,7 +43,12 @@ var dd7=$("#element_47_2").val();
 var yy7=$("#element_47_3").val();
 var li7=mm7+"/"+dd7+"/"+yy7;
  
-var querystring ="&element_1_1="+li1a+"&element_1_2="+li1b+"&element_2="+li2+"&element_28="+li28+"&element_31="+li31+"&element_43="+li43+"&element_4="+li4+"&element_5="+li5+"&element_44="+li44+"&element_33_1="+li33a+"&element_33_3="+li33c+"&element_33_4="+li33d+"&element_33_5="+li33e+"&element_33_6="+li33f+"&element_50="+li8+"&element_51="+li9+"&element_45="+li45+"&element_53="+li7+"&element_59="+li53+"&element_60="+li56+"&element_65="+li55+"&element_62="+li57+"&element_63="+li58+"&element_64="+li59+"&element_66="+li60;
+ var mm10=$("#element_61_1").val();
+var dd10=$("#element_61_2").val();
+var yy10=$("#element_61_3").val();
+var li10=mm10+"/"+dd10+"/"+yy10;
+ 
+var querystring ="&element_1_1="+li1a+"&element_1_2="+li1b+"&element_2="+li2+"&element_28="+li28+"&element_31="+li31+"&element_43="+li43+"&element_4="+li4+"&element_5="+li5+"&element_44="+li44+"&element_33_1="+li33a+"&element_33_3="+li33c+"&element_33_4="+li33d+"&element_33_5="+li33e+"&element_33_6="+li33f+"&element_50="+li8+"&element_51="+li9+"&element_45="+li45+"&element_53="+li7+"&element_59="+li53+"&element_60="+li56+"&element_65="+li55+"&element_62="+li57+"&element_63="+li58+"&element_64="+li59+"&element_66="+li60+"&element_70="+li10+"&element_71="+li62;
 querystring = querystring.replace(/\s/g,'%20');
 var url = "https://okstate.forms-db.com/view.php?id=450977"+querystring;
 $("#element_46").val(url);
