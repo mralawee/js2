@@ -11,7 +11,10 @@ var li3d= $("#element_3_4").val();
 var li3e= $("#element_3_5").val();
 var li3f= $("#element_3_6").val();
 
-var li4= $("#element_4").val();
+var ph1=$("#element_4_1").val();
+var ph2=$("#element_4_2").val();
+var ph3=$("#element_4_3").val();
+var li4= ph1+"/"+ph2+"/"+ph3;
 
 var mm5=$("#element_5_1").val();
 var dd5=$("#element_5_2").val();
