@@ -27,8 +27,29 @@ var li7= $("#element_7").val();
 
 var li8= $("#element_8").val();
 
-var li9= $("#element_9").val();
-
+var stat=$("input[name='element_9']:checked").val();
+var li9;
+if(stat=="1")
+{
+	li9="F-1";
+}
+else if(stat=="2")
+{
+	li9="J-1";
+}
+else if(stat=="3")
+{
+	li9="J-2";
+}
+else if(stat=="4")
+{
+	li9="PR Applicant";
+}
+ else
+{
+	li9=$("#element_9_other").val();;
+}
+ 
 var li10= $("#element_10").val();
 
 var li11= $("#element_11").val();
@@ -36,8 +57,6 @@ var li11= $("#element_11").val();
 var li12= $("#element_12").val();
 
 var li13= $("#element_13").val();
- 
-
  
 var querystring ="&element_1_1="+li1a+"&element_1_2="+li1b+"&element_2="+li2+"&element_3_1="+li3a+"&element_3_3="+li3c+"&element_3_4="+li3d+"&element_3_5="+li3e+"&element_3_6="+li3f+"&element_20="+li4+"&element_21="+li5+"&element_6="+li6+"&element_7="+li7+"&element_8="+li8+"&element_22="+li9+"&element_10="+li10+"&element_11="+li11+"&element_12="+li12+"&element_13="+li13;
 querystring = querystring.replace(/\s/g,'%20');
